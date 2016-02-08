@@ -4,7 +4,7 @@ from django.db import models
 # http://stackoverflow.com/questions/34631806/fail-during-installation-of-pillow-python-module-in-linux
 # https://pillow.readthedocs.org/en/3.0.0/installation.html#os-x-installation
 # https://github.com/Homebrew/homebrew-php/issues/205
-
+#  нахуй----------------------------------------------------------------
 YEARS = (
             ('6-12', 'Подарки для ребенка 6-12'),
             ('13-17', 'Подарки для подростка 13-17'),
@@ -12,6 +12,8 @@ YEARS = (
             ('26-39', 'Подарки для мужа и коллеги 26-39'),
             ('40+', 'Подарки для мужчины 40+'),
         )
+# ----------------------------------------------------------------
+
 
 TYPE = (
             ('solo-electric', 'Наборы электроники для самостоятельной сборки'),
