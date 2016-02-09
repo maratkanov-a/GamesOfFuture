@@ -1,3 +1,7 @@
+.custom-font-size {
+    font-size: 36px;
+}
+
 /*styles for header*/
 #logo-size {
     height: 156px;
@@ -37,6 +41,57 @@ header, main, footer {
 
 .container {
     width: 85%;
+}
+
+/*---------------------------------------------*/
+
+/*styles for categories*/
+
+.welcome-text {
+    text-align: justify;
+}
+
+.category-img {
+    width: 130px;
+    height: 130px;
+}
+
+.info {
+    text-align: center;
+}
+
+.js-show-categories {
+    width: 300px;
+}
+
+i.small {
+    font-size: 3rem;
+}
+
+.arrow-next {
+    color: black;
+    margin-top: 45px;
+}
+
+.category-names {
+    padding-left: 50px;
+}
+
+/*---------------------------------------------*/
+
+
+
+/*styles for footer*/
+
+/*sticky footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+flex: 1 0 auto;
 }
 
 /*---------------------------------------------*/

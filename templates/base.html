@@ -65,28 +65,31 @@
     </header>
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col s12 m9 l10">
-                    body
-                </div>
-                <div class="col hide-on-small-only m3 l2">
-                    asd
+            <div class="row section" style="background-color: black">
+                <div class="col s12">
+                        <a href="#!" class="breadcrumb">First</a>
+                        <a href="#!" class="breadcrumb">Second</a>
+                        <a href="#!" class="breadcrumb">Third</a>
                 </div>
             </div>
-     </div>
+            {% block content %}
+            {% endblock %}
+        </div>
     </main>
 
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m9 l10">
-                footer
+    <footer class="page-footer blue accent-1">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <p class="grey-text text-lighten-4">
+                    © 2015. Интернет-магазин подарков для будущего Games of Future — качественные подарки для развития
+                    всех-всех-всех: от 6-летнего ребенка до 17-летнего подростка и от 18-летнего студента до мужчины за
+                    50. Надеемся, вы нашли всё, что искали! Приятных подарков и удачи на любой праздник!
+                </p>
+              </div>
             </div>
-        </div>
-
-    </div>
-    {% block content %}
-
-    {% endblock %}
+          </div>
+        </footer>
 
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/materialize.min.js' %}"></script>

@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+    <div class="row">
+    <div class="col s9">
+        <div class="welcome-text">
+        <p>
+            Games Of Future
+        </p>
+        <p>
+            Подарки для тех, кто хочет помочь своим друзьям и близким узнать больше о развивающихся направлениях
+            электроники, химии и механики или просто порадовать нестандартными идеями.
+            Заинтересуйте любого миром технологий, интеллекта и постоянного развития.
+        </p>
+        </div>
+    </div>
+        <div class="col s3">
+            Пацаны
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s9">
+            <a href="#!" class="js-show-categories waves-effect waves-light btn-large blue">Выбрать подарки</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="info">
+                <p class="custom-font-size">
+                    Мы делаем особенные подарки
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 info">
+            <div class="col s2">
+                <div class="category-data">
+                    <a href="#">
+                        <img class="category-img" src="{% static 'img/site/target.png' %}">
+                    </a>
+                </div>
+                <div>
+                    Цель
+                </div>
+            </div>
+            <div class="col s1">
+                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            </div>
+            <div class="col s2">
+                <div>
+                    <img class="category-img" src="{% static 'img/site/game.png' %}">
+                </div>
+                <div>
+                    Игра
+                </div>
+            </div>
+            <div class="col s1">
+                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            </div>
+            <div class="col s2">
+                <div>
+                    <img class="category-img" src="{% static 'img/site/learning.png' %}">
+                </div>
+                <div>
+                    Обучение
+                </div>
+            </div>
+            <div class="col s1">
+                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            </div>
+            <div class="col s2">
+                <div>
+                    <img class="category-img" src="{% static 'img/site/result.png' %}">
+                </div>
+                <div>
+                    Результат
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
