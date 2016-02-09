@@ -1,3 +1,4 @@
+/*styles for header*/
 #logo-size {
     height: 156px;
     width: 136px;
@@ -9,11 +10,7 @@
 }
 
 header, main, footer {
-    padding-left: 200px;
-}
-
-.container {
-    width: 85%;
+    padding-left: 240px;
 }
 
 /*little screen - remove padding*/
@@ -22,3 +19,24 @@ header, main, footer {
         padding-left: 0;
     }
 }
+.page-title {
+    font-size: 48px;
+    line-height: 100px
+}
+
+.new-nav {
+    height: 100px;
+}
+
+#nav-mobile {
+    width: 240px
+}
+/*---------------------------------------------*/
+
+/*styles for body*/
+
+.container {
+    width: 85%;
+}
+
+/*---------------------------------------------*/

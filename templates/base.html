@@ -7,12 +7,13 @@
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/mine.css' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
     <header>
-        <nav class="nav-wrapper blue accent-1">
+        <nav class="nav-wrapper new-nav blue accent-1">
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="#" data-activates="nav-mobile" class="button-collapse">
@@ -24,7 +25,7 @@
                 </div>
             </div>
         </nav>
-        <ul id="nav-mobile" class="side-nav fixed" style="width: 240px">
+        <ul id="nav-mobile" class="side-nav fixed">
             <div class="logo">
                 <a href="{% url 'home-page' %}">
                     <img id="logo-size" src="{% static 'img/site/logo.png' %}">
@@ -35,7 +36,6 @@
                     Выбор категории
                 </a>
             </li>
-            {# TODO: line fix           #}
             <li>
                 <a class="waves-effect waves-teal" href="#">
                     Как мы делаем подарки
