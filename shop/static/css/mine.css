@@ -1,12 +1,24 @@
 #logo-size {
-    height: 160px;
-    width: 150px;
+    height: 156px;
+    width: 136px;
 }
 
 .logo {
-    height: 170px;
+    height: 160px;
+    text-align:center
 }
 
-.new-nav {
-    width: 185px;
+header, main, footer {
+    padding-left: 200px;
+}
+
+.container {
+    width: 85%;
+}
+
+/*little screen - remove padding*/
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
 }

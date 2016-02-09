@@ -12,12 +12,19 @@
 </head>
 <body>
     <header>
-        <nav class="blue accent-1">
+        <nav class="nav-wrapper blue accent-1">
             <div class="container">
-                Games OF Future
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                        <i class="mdi-navigation-menu"></i>
+                    </a>
+                    <a class="page-title">
+                        Games Of Future
+                    </a>
+                </div>
             </div>
         </nav>
-        <ul class="side-nav new-nav fixed">
+        <ul id="nav-mobile" class="side-nav fixed" style="width: 240px">
             <div class="logo">
                 <a href="{% url 'home-page' %}">
                     <img id="logo-size" src="{% static 'img/site/logo.png' %}">
@@ -83,5 +90,6 @@
 
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/materialize.min.js' %}"></script>
+    <script src="{% static 'js/mine.js' %}"></script>
 </body>
 </html>
