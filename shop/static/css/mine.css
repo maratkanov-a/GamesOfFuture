@@ -79,7 +79,11 @@ i.small {
 
 /*---------------------------------------------*/
 
-
+/*styles for products*/
+.add-new {
+    position: relative;
+}
+/*---------------------------------------------*/
 
 /*styles for footer*/
 
