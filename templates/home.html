@@ -3,26 +3,26 @@
 {% load staticfiles %}
 
 {% block content %}
-    <div class="row">
-    <div class="col s9">
-        <div class="welcome-text">
-        <p>
-            Games Of Future
-        </p>
-        <p>
-            Подарки для тех, кто хочет помочь своим друзьям и близким узнать больше о развивающихся направлениях
-            электроники, химии и механики или просто порадовать нестандартными идеями.
-            Заинтересуйте любого миром технологий, интеллекта и постоянного развития.
-        </p>
+    <div class="row my-card">
+        <div class="col s12 card">
+            <div class="col s12 m9 l9 card-content welcome-text">
+                <p class="card-title">
+                    Games Of Future
+                </p>
+                <p>
+                    Подарки для тех, кто хочет помочь своим друзьям и близким узнать больше о развивающихся направлениях
+                    электроники, химии и механики или просто порадовать нестандартными идеями.
+                    Заинтересуйте любого миром технологий, интеллекта и постоянного развития.
+                </p>
+            </div>
+            <div class="col s12 m9 l3 card-content">
+                <img class="responsive-img" src="{% static 'img/site/muzhichki.png' %}">
+            </div>
         </div>
     </div>
-        <div class="col s3">
-            Пацаны
-        </div>
-    </div>
     <div class="row">
-        <div class="col s9">
-            <a href="{% url 'category-page' %}" class="js-show-categories waves-effect waves-light btn-large blue">Выбрать подарки</a>
+        <div class="col s12 m4 l4">
+            <a href="{% url 'category-page' %}" class="waves-effect waves-light btn-large blue adaptive-btn">Выбрать подарки</a>
         </div>
     </div>
     <div class="row">
@@ -36,20 +36,18 @@
     </div>
     <div class="row">
         <div class="col s12 info">
-            <div class="col s2">
+            <div class="col s12 l2">
                 <div class="category-data">
-                    <a href="#">
-                        <img class="category-img" src="{% static 'img/site/target.png' %}">
-                    </a>
+                    <img class="category-img" src="{% static 'img/site/target.png' %}">
                 </div>
                 <div>
                     Цель
                 </div>
             </div>
-            <div class="col s1">
-                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            <div class="col s12 l1">
+                <i class="fa fa-chevron-circle-right fa-3x arrow-next"></i>
             </div>
-            <div class="col s2">
+            <div class="col s12 l2">
                 <div>
                     <img class="category-img" src="{% static 'img/site/game.png' %}">
                 </div>
@@ -57,10 +55,10 @@
                     Игра
                 </div>
             </div>
-            <div class="col s1">
-                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            <div class="col s12 l1">
+                <i class="fa fa-chevron-circle-right fa-3x arrow-next"></i>
             </div>
-            <div class="col s2">
+            <div class="col s12 l2">
                 <div>
                     <img class="category-img" src="{% static 'img/site/learning.png' %}">
                 </div>
@@ -68,10 +66,10 @@
                     Обучение
                 </div>
             </div>
-            <div class="col s1">
-                <i class="material-icons dp48 small arrow-next">trending_flat</i>
+            <div class="col s12 l1">
+                <i class="fa fa-chevron-circle-right fa-3x arrow-next"></i>
             </div>
-            <div class="col s2">
+            <div class="col s12 l2">
                 <div>
                     <img class="category-img" src="{% static 'img/site/result.png' %}">
                 </div>

@@ -17,16 +17,41 @@ header, main, footer {
     padding-left: 240px;
 }
 
-/*little screen - remove padding*/
+/* like 4s screen */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	.page-title {
+        font-size: 24px;
+        line-height: 100px
+    }
+
+}
+
+/*little screen - remove padding and fix fonts*/
 @media only screen and (max-width : 992px) {
     header, main, footer {
         padding-left: 0;
     }
+
+    .page-title {
+		font-size: 36px;
+        line-height: 100px
+	}
 }
-.page-title {
-    font-size: 48px;
-    line-height: 100px
+
+/*huge screen*/
+@media only screen and (min-width : 992px) {
+	.page-title {
+        font-size: 48px;
+        line-height: 100px
+    }
+
 }
+
+.burger {
+    margin-top: 20px;
+}
+
+
 
 .new-nav {
     height: 100px;
@@ -45,7 +70,7 @@ header, main, footer {
 
 /*---------------------------------------------*/
 
-/*styles for categories*/
+/*styles for home*/
 
 .welcome-text {
     text-align: justify;
@@ -69,12 +94,20 @@ i.small {
 }
 
 .arrow-next {
-    color: black;
     margin-top: 45px;
 }
 
 .category-names {
     padding-left: 50px;
+}
+
+.my-card {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.adaptive-btn {
+    width: 100%;
 }
 
 /*---------------------------------------------*/
@@ -84,6 +117,11 @@ i.small {
     position: relative;
 }
 /*---------------------------------------------*/
+
+/*styles for categories*/
+
+
+/*--------------------------------------------*/
 
 /*styles for footer*/
 
