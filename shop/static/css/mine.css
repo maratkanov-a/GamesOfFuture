@@ -36,6 +36,16 @@ header, main, footer {
 		font-size: 36px;
         line-height: 100px
 	}
+
+    .arrows:before{
+        content: "\f13a";
+        margin: 0 20px;
+    }
+
+    .arrows {
+        margin: 20px 0;
+    }
+
 }
 
 /*huge screen*/
@@ -45,6 +55,14 @@ header, main, footer {
         line-height: 100px
     }
 
+    .arrows:before{
+        content: "\f138";
+
+    }
+
+    .arrows {
+        margin-top: 45px;
+    }
 }
 
 .burger {
@@ -91,10 +109,6 @@ header, main, footer {
 
 i.small {
     font-size: 3rem;
-}
-
-.arrow-next {
-    margin-top: 45px;
 }
 
 .category-names {
