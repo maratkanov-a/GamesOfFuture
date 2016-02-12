@@ -63,21 +63,19 @@ header, main, footer {
     .arrows {
         margin-top: 45px;
     }
-}
 
-.burger {
-    margin-top: 20px;
-}
-
-
-
-.new-nav {
-    height: 100px;
 }
 
 #nav-mobile {
     width: 240px
 }
+
+
+.back-btn {
+    margin-top: 20px;
+}
+
+
 /*---------------------------------------------*/
 
 /*styles for body*/
@@ -122,6 +120,11 @@ i.small {
 
 .adaptive-btn {
     width: 100%;
+}
+
+.btn-large i {
+    font-size: 1.3rem !important;
+    padding-right: 5px;
 }
 
 /*---------------------------------------------*/

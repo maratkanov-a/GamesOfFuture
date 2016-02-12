@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^$', HomePage.as_view(), name='home-page'),
     url(r'^category/$', CategoryPage.as_view(), name='category-page'),
     url(r'^products/(?P<pk>\d+)$', ProductsWithCategoryPage.as_view(), name='products-with-category-page'),
+    url(r'^product/(?P<pk>\d+)$', ProductDetailView.as_view(), name='product-page'),
     # url(r'^hot/', QuestionListViewHot.as_view(), name='hot-page'),
     # authentication
     # url(r'^login/', 'django.contrib.auth.views.login', name='login-page'),

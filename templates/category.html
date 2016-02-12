@@ -5,16 +5,16 @@
 {% block content %}
     {% for i in '1234567890' %}
             <div class="row my-card">
-            <div class="col s12 card">
-                <div class="col s12 l3 card-content">
-                    <img class="responsive-img" src="{% static 'img/site/target.png' %}" alt="">
-                </div>
-                <div class="col s12 l9 card-content">
-                          Подарки для тех, кто хочет помочь своим друзьям и близким узнать больше о развивающихся направлениях
-                        электроники, химии и механики или просто порадовать нестандартными идеями.
-                        Заинтересуйте любого миром технологий, интеллекта и постоянного развития.
+                <div class="col s12 card">
+                    <div class="col s12 l3 card-content">
+                        <img class="responsive-img" src="{% static 'img/site/target.png' %}" alt="">
+                    </div>
+                    <div class="col s12 l9 card-content">
+                              Подарки для тех, кто хочет помочь своим друзьям и близким узнать больше о развивающихся направлениях
+                            электроники, химии и механики или просто порадовать нестандартными идеями.
+                            Заинтересуйте любого миром технологий, интеллекта и постоянного развития.
 
-                </div>
+                    </div>
                     <div class="card-content right">
                         <a class="waves-effect waves-light btn-large blue" href="{% url 'products-with-category-page' pk='1' %}">Просмотреть товары</a>
                     </div>
