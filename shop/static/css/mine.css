@@ -75,6 +75,13 @@ header, main, footer {
     margin-top: 20px;
 }
 
+.cart {
+    margin-left: 50px;
+}
+
+.cart-picture {
+    height: 80px;
+}
 
 /*---------------------------------------------*/
 
