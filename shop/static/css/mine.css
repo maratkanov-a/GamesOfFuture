@@ -46,6 +46,10 @@ header, main, footer {
         margin: 20px 0;
     }
 
+    .btn-before-subscrube {
+        margin-bottom: 30px;
+    }
+
 }
 
 /*huge screen*/
@@ -62,6 +66,10 @@ header, main, footer {
 
     .arrows {
         margin-top: 45px;
+    }
+
+    .btn-before-subscrube {
+        margin-top: 40px;
     }
 
 }
@@ -89,6 +97,10 @@ header, main, footer {
 
 .container {
     width: 85%;
+}
+
+.card .card-content p {
+    padding-bottom: 10px
 }
 
 /*---------------------------------------------*/

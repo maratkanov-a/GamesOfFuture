@@ -82,6 +82,26 @@
             </div>
             {% block content %}
             {% endblock %}
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <a href="{% url 'category-page' %}" class="waves-effect waves-light btn-large blue adaptive-btn btn-before-subscrube">
+                        Выбрать подарки
+                    </a>
+                </div>
+                <div class="col s12 l8">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                      <div class="row valign-wrapper">
+                        <div class="col s4">
+                          Подпишись :)
+                        </div>
+                        <div class="input-field  col s8">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
     </main>
 
