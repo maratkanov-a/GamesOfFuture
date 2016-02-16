@@ -2,5 +2,5 @@ from django.contrib import admin
 from shop.models import *
 
 
-admin.site.register(Product)
-admin.site.register(ProductInfo)
+# admin.site.register(Product)
+# admin.site.register(ProductInfo)

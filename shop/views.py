@@ -1,7 +1,7 @@
 from django.core.urlresolvers import reverse_lazy
 from django.shortcuts import render
 from django.views.generic import TemplateView, DetailView
-from shop.models import Product
+# from shop.models import Product
 
 
 class HomePage(TemplateView):

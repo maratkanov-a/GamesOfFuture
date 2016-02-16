@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from shop.views import *
-
+from django.conf.urls import include, url
 
 urlpatterns = [
     # url(r'^/', ''),
