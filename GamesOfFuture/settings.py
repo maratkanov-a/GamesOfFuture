@@ -118,7 +118,6 @@ DATABASES = {
     }
 }
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
@@ -139,7 +138,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'shop', 'static')
 COMPRESS_ROOT = os.path.join(BASE_DIR, 'shop', 'compress')
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'shop', 'img')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'shop', 'static/img/site')
 MEDIA_URL = '/img/'
 
 STATIC_URL = '/static/'

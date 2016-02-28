@@ -4,10 +4,6 @@ from django.views.generic import TemplateView, DetailView
 # from shop.models import Product
 
 
-class HomePage(TemplateView):
-    template_name = 'home.html'
-
-
 class CategoryPage(TemplateView):
     template_name = 'category.html'
 
