@@ -13,17 +13,19 @@
 {% block headertext %}{{ category.name }}{% endblock %}
 
 {% block breadcrumbs %}
-    <ul class="breadcrumb">
-        <li>
-            <a href="{{ homepage_url }}">{% trans "Home" %}</a>
-        </li>
-        {% for category in category.get_ancestors %}
-            <li>
-                <a href="{{ category.get_absolute_url }}">{{ category.name }}</a>
-            </li>
-        {% endfor %}
-        <li class="active">{{ category.name }}</li>
-    </ul>
+    <div class="row breadcrumb">
+        <nav>
+            <div class="nav-wrapper">
+              <div class="col s12">
+                 <a href="{{ homepage_url }}">{% trans "Домой" %}</a>
+                {% for category in category.get_ancestors %}>
+                    <a href="{{ category.get_absolute_url }}" class="breadcrumb">{{ category.name }}</a>
+                {% endfor %}
+                  <a class="breadcrumb">{{ category.name }}</a>
+              </div>
+            </div>
+      </nav>
+    </div>
 {% endblock breadcrumbs %}
 
 {% block content %}
